@@ -1,0 +1,15 @@
+<section>
+	<h2>Accede a la aplicación</h2>
+	<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+		<div>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" [(ngModel)]="user.email" required  ngModel >
+		</div>
+		<div>
+			<label for="pass">Password:</label>
+			<input type="password" name="pass" id="pass" [(ngModel)]="user.password" required>
+		</div>
+
+		<div><button class="btn" [disabled]="!form.valid">Acceder</button></div>
+	</form>
+</section>

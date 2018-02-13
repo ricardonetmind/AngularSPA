@@ -1,0 +1,11 @@
+<section>
+	<h2>Nuevo proyecto</h2>
+	<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+		<div>
+			<label for="nombre">Nombre:</label>
+			<input type="text" name="nombre" id="nombre" [(ngModel)]="_nuevoProyecto.nombre" required>
+		</div>
+
+		<div><button class="btn" [disabled]="!form.valid">Crear</button></div>
+	</form>
+</section>

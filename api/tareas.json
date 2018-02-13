@@ -1,0 +1,7 @@
+[
+	{"tid":1, "descripcion":"Crear html", "tiempo":10, "proyecto":1}, 
+	{"tid":2, "descripcion":"Crear js", "tiempo":7, "proyecto":2},  
+	{"tid":3, "descripcion":"Crear TS", "tiempo":2, "proyecto":1}, 
+	{"tid":4, "descripcion":"Llevar a producción", "tiempo":3, "proyecto":2}, 
+	{"tid":5, "descripcion":"Publicar html", "tiempo":20, "proyecto":1}
+]
